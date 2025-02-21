@@ -193,7 +193,7 @@ $
   let i = 0
   let j = 0
   multiplier(5, 5, size: 1.0)
-}))
+}), caption: [])
 
 #figure(canvas({
   import draw: *
@@ -262,7 +262,7 @@ $
 
   gate_with_leg((6, -4), [$and$], size: 0.5, name: "a4")
   content((8, -4), text(14pt)[$= mat(mat(1, 1; 1, 0); mat(0, 0; 0, 1))$])
-}))
+}), caption: [])
 
 == Simulated Annealing
 #pagebreak()
